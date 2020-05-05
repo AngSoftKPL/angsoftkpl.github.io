@@ -156,7 +156,7 @@ function changeInstruction() {
     if (App.clickCount === 10) {
         $('#instruction-text').addClass('animated hinge')
         setTimeout(function() {
-            $('#instruction-text').text('Then try clicking the gift below');
+            $('#instruction-text').text('Da click en los regalos');
             $('#instruction-text').removeClass();
             $('#instruction-text').addClass('animated bounceInDown')
         }, 200);
@@ -167,7 +167,7 @@ function changeInstruction() {
     if (App.clickCount === 15) {
         $('#instruction-text').addClass('animated rollOut');
         setTimeout(function() {
-            $('#instruction-text').text('Happy Birthday!');
+            $('#instruction-text').text('¡Feliz cumpleaños!');
             $('#instruction-text').removeClass();
             $('#instruction-text').addClass('animated bounceInDown')
         }, 200);
