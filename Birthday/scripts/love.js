@@ -127,7 +127,7 @@
             let height = 200 * Math.cos(Math.PI / 6);
             ctx.save();
             ctx.fillStyle = color;
-            ctx.fillRect(0, 0, 100,100);
+            ctx.fillRect(0, 0, this.tree.canvas.width, this.tree.canvas.height);
             ctx.translate(point.x, point.y);
             ctx.scale(scale, scale);
             ctx.beginPath();
