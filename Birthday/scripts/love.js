@@ -131,7 +131,7 @@
             ctx.translate(point.x, point.y);
             ctx.scale(scale, scale);
             ctx.beginPath();
-            ctx.moveTo(100,300);
+            ctx.moveTo(this.tree.canvas.width / 2 ,this.tree.canvas.height / 2);
             ctx.lineTo(300, 300);
             ctx.lineTo(200, 300 - height)
             ctx.closePath();
