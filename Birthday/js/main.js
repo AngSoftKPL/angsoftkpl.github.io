@@ -156,7 +156,7 @@ function changeInstruction() {
     if (App.clickCount === 10) {
         $('#instruction-text').addClass('animated hinge')
         setTimeout(function() {
-            $('#instruction-text').text('Da click en los regalos');
+            $('#instruction-text').text('Da click en los regalos (activa el sonido)');
             $('#instruction-text').removeClass();
             $('#instruction-text').addClass('animated bounceInDown')
         }, 200);
