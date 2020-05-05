@@ -59,8 +59,8 @@
         var points = [], x, y, t;
         for (var i = 10; i < 30; i += 0.2) {
             t = i / Math.PI;
-            x = 16 * Math.pow(Math.sin(t), 3);
-            y = 13 * Math.cos(t) - 5 * Math.cos(2 * t) - 2 * Math.cos(3 * t) - Math.cos(4 * t);
+            x = 2 * Math.cos(t);
+            y = 3 * Math.sin(t) - 1;
             points.push(new Point(x, y));
         }
         this.points = points;
