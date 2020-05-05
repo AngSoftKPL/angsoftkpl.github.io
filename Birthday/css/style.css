@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+#library {
+    display: none;
+}
+
+#instruction {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#instruction-text {
+    color: #5AFBE7;
+    font-size: 36px;
+}
+
+
+canvas {
+    position: absolute;
+    top: 0px;
+    z-index: -99;
+
+}
